@@ -1,0 +1,68 @@
+.mainContainer {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 15px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.operator {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ff7514;
+    color: #5C5C5C;
+    font-weight:bold;
+    padding: 50px;
+    font-size:x-large;
+    border-radius: 150px;
+ 
+}
+
+.number {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    background-color: #CACCCE;
+    border-radius: 150px;
+  
+}
+
+.clear {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #ff7514;
+    background-color: #CACCCE;
+    border-bottom-left-radius: 40px;
+    border-radius: 150px;
+}
+
+.equal {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #CACCCE;
+    border-radius: 150px;
+}
+
+#divide {
+    border-bottom-right-radius: 40px;
+}
+
+#plus {
+    border-top-right-radius: 40px;
+}
+
+#one {
+    border-top-left-radius: 40px;
+}
+
+
+#banner {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
